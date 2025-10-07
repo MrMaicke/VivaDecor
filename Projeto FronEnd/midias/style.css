@@ -1,0 +1,54 @@
+/* Importando a Referencia da font INTER no site do GOOGLE FONTS (precisa de internet) */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+}
+
+/* Estilização Global */
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+
+a{
+    color: black;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+button{
+    cursor: pointer; /* Mudar o icone de ação do mouse */
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 30px;
+
+    border: none;
+    color: white;
+    border-radius: 5px;
+    background-color: #1f1f1f;
+}
+
+/* Estilizando o vosso cabeçalho */
+.cabecalho{
+    height: 100px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.links-navegacao{
+    font-weight: 600;
+    list-style-type:none ;
+
+    gap: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* .links-navegacao li{
+    padding: 15px;
+} */
