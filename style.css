@@ -43,6 +43,12 @@ button{
     font-weight: 500;
 }
 
+.titulo-servicos{
+    color: #1f1f1f;
+    font-size: 30px;
+    font-weight: 500;
+}
+
 .paragrafo{
     font-size: 20px;
     color: #4e4b59;
@@ -128,4 +134,65 @@ main{
     width: 90px;
     border: none;
     background-color: #1f1f1f;
+}
+
+.tipos-servicos{
+    margin-top: 50px;
+    gap: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.servico{
+    width: 30%;
+    gap: 30px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.servico-texto{
+    margin-top: 15px;
+}
+
+.servicos-principais{
+    margin: 120px 0px;
+}
+
+/* Estilizando a seção de projeções de serviços */
+.projecao{
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+}
+
+/* (>) seleciona as imagens, somente dentro da div.projeção */
+.projecao > img{
+    width: 800px;
+    height: 700px;
+
+    object-fit: cover;
+    object-position: left;
+    transition: 5s;
+}
+
+.projecao > img:hover{
+    object-position: right;
+}
+
+.projecao-textos{
+    width: 50%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.dropdown{
+    width: 100%;
+    padding: 30px 0px;
+    border-bottom: 1px solid #ddd;
+
+    display: flex;
+    justify-content: space-between;
 }
