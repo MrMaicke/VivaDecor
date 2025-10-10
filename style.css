@@ -196,3 +196,84 @@ main{
     display: flex;
     justify-content: space-between;
 }
+
+/* Estilizando a seção de passos */
+ 
+.passo-simples{
+    display: flex;
+    gap: 30px;
+}
+ 
+.passo-icone{
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+ 
+.passo-icone hr{
+    height: 95px;
+    background-color: #ddd;
+    width: 2px;
+    border: none;
+}
+ 
+.balao{
+    background-color: #1F1F1F;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+ 
+.projecao-passos{
+    gap: 20px;
+}
+ 
+.passo-texto{
+    margin-top: 15px;
+}
+ 
+.projecao-em-etapas{
+    margin: 150px 0px;
+}
+
+/* Estilizando a seção de depoimentros */
+.card{
+    width: 450px;
+    height: 400px;
+    color: white;
+    padding: 30px 20px;
+    border-radius: 8px;
+    background-color: #1F1F1F;
+}
+
+/* Estilizar mais de uma classe ao mesmo tempo */
+.texto-branco, .nome-cliente{
+    color: white;
+    display: block;
+}
+
+.texto-cinza{
+    color: #8c8a97;
+}
+
+.cliente img{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50px;
+}
+
+.cliente{
+    gap: 15px;
+    display: flex;
+}
+
+.aspas{
+    font-size: 120px;
+}
+
