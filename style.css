@@ -290,6 +290,7 @@ main{
 .conteudo-secao-clientes{
     width: 100%;
     gap: 30px;
+
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
@@ -309,10 +310,49 @@ main{
 .nossos-clientes{
     gap: 50px;
     display: flex;
+
     align-items: flex-end;
     flex-direction: column;
 }
 
 .nome-cliente h2{
     width: 30;
+}
+
+/* Estilizando a seção de contatos */
+.contato{
+    margin-top: 120px;
+    gap: 30px;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Pagar todos itens dentro da classe .contato apenas filhos */
+.contato > *{
+    width: 40%;
+    text-align: center;
+}
+
+form{
+    width: 50% !important;/* Forçar o valor acima de qualquer outro */
+    padding: 10px;
+
+    display: flex;
+    justify-content: space-between;
+
+    box-shadow: 0px 2px 20px 5px #ddd;
+}
+
+form input{
+    width: 60%;
+    border: none;
+    font-size: 20px;
+}
+
+/* Remove a borda quando o campo está inspecionado */
+input:focus{
+    outline: none;
 }
