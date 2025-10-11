@@ -169,6 +169,7 @@ main{
 .projecao > img{
     width: 800px;
     height: 700px;
+    border-radius: 15px;
 
     object-fit: cover;
     object-position: left;
@@ -243,10 +244,10 @@ main{
 
 /* Estilizando a seção de depoimentros */
 .card{
-    width: 450px;
-    height: 400px;
+    width: 500px;
+    height: 450px;
     color: white;
-    padding: 30px 20px;
+    padding: 30px 50px;
     border-radius: 8px;
     background-color: #1F1F1F;
 }
@@ -255,6 +256,7 @@ main{
 .texto-branco, .nome-cliente{
     color: white;
     display: block;
+    font-size: 24px;
 }
 
 .texto-cinza{
@@ -271,9 +273,46 @@ main{
 .cliente{
     gap: 15px;
     display: flex;
+    margin-top: 20px;
 }
 
 .aspas{
     font-size: 120px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+.depoimentos-clientes{
+    gap: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.conteudo-secao-clientes{
+    width: 100%;
+    gap: 30px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.slide{
+    padding: 15px;
+    margin-right: 20px;
+    background-color: #f1f0f5;
+}
+
+.slide:last-child{
+    transform: rotate(180deg);
+}
+
+.nossos-clientes{
+    gap: 50px;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+.nome-cliente h2{
+    width: 30;
+}
