@@ -356,3 +356,8 @@ form input{
 input:focus{
     outline: none;
 }
+
+/* Estilizando o rodape */
+footer{
+    background-color: #1F1F1F;
+}
